@@ -1,0 +1,59 @@
+    h1 {
+      font-family: serif;
+      color: darkblue;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    body{
+      background-color: floralwhite;
+    }
+
+    p.lmark{
+      font-family: serif;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    ul {
+      font-family: sans-serif;
+      color: black;
+      margin-left: 5px;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 5px solid indianred;
+    }
+
+    th.top {
+      font-size: 30px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 400px;
+      height: auto;
+    }
+
+    form {
+      text-align: center;
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+
+    footer {
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px;
+      color: #999;
+    }

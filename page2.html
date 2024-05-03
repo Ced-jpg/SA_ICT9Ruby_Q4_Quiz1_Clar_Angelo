@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>My Online Portfolio</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+    #header {
+      margin-bottom: 20px;
+    }
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #search-bar {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    #search-bar input[type="text"] {
+      padding: 5px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    #links {
+      display: flex;
+    }
+    #links a {
+      margin: 0 10px;
+    }
+
+    h1{
+      color: seagreen;
+      font-family: serif;
+      text-align: center;
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark " id="nav">
+  <ul class="navbar-nav me-auto">
+    <li class="nav-item">
+      <a class="nav-link btn btn-outline-success" href="index.html">Main Page</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn btn-outline-success" href="SA_ICT9Ruby_Q1Project_Clar_Angelo.html">First Quarter Project</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn btn-outline-success" href="ICT9Ruby_Q2PROJ_Clar_Angelo.html">Second Quarter Project</a>
+    </li>
+  </ul>
+</nav>
+
+  <div id="header">
+    <h1>MY ONLINE PORTFOLIO</h1>
+  </div>
+
+  <div id="content">
+    <div id="search-bar">
+      <input type="text" placeholder="Enter a keyword" />
+      <button type="button" class="btn btn-success" onclick="search()">Search</button>
+    </div>
+    <div id="links">
+      <button type="button" class="btn btn-outline-success"><a href="SA_ICT9Ruby_Q1Project_Clar_Angelo.html">First Quarter</a></button>
+      <button type="button" class="btn btn-outline-success"><a href="ICT9Ruby_Q2PROJ_Clar_Angelo.html">Second Quarter</a></button>
+    </div>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  // Function to simulate the search functionality
+   function search() {
+     alert("Searching for the keyword...");
+   }
+</script>
+
+</body>
+</html>
